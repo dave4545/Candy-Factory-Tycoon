@@ -1,0 +1,8 @@
+while wait() do
+local args = {
+    [1] = "USERNAME HERE",
+    [2] = 161000
+}
+
+game:GetService("ReplicatedStorage").Droptopla:FireServer(unpack(args))
+end
